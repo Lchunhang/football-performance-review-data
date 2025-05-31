@@ -29,6 +29,7 @@ This repository contains the research data and companion materials that support 
 | `Modelling Approach` | High-level family (Regression, Ensemble, Graph, RL, etc.). |
 | `Techniques/Model Used` | Specific algorithms (e.g., XGBoost, GNN-EGT). |
 | `Type of Data` | **Aggregated**, **Event**, **Tracking**. |
+| `Number of Factors` | Number of factors used in study |
 | `Factors` | Key input variables (pace, xG, market value, etc.). |
 | `Type of Rating` | Dependent variable (player rating, market value, team points, etc.). |
 | `Evaluation Metric/Rating System` | e.g., Plus/Minus, VAEP score. |
