@@ -1,0 +1,54 @@
+# Search Strings for: A Systematic Review of Modern Football Performance Measures (2018–2024)
+# Notes:
+# • Wildcards (*) follow each platform’s conventions.
+# • Apply filters manually where the platform does not support inline syntax:
+#   Years: 2018–2024 (inclusive) • Language: English • Document type: Article (where available)
+
+==============================
+SCOPUS (Elsevier) — Advanced Search
+==============================
+# Use in SCOPUS Advanced Search. This targets title/abstract/keywords and applies year/language inline.
+TITLE-ABS-KEY(
+  ("football" OR "soccer" OR "association football")
+  AND ("play*" OR "perform*" OR "evaluat*" OR "analys*" OR "metric*" OR "measure*" OR "assessment"
+       OR "shoot*" OR "pass*" OR "defend*" OR "dribbl*" OR "goalkeep*" OR "goal*" OR "player")
+  AND ("expected goals" OR xg OR "expected assists" OR xa OR "expected threat" OR xt OR vaep
+       OR "possession value" OR epv OR "pitch control" OR "space control" OR "pitch value"
+       OR "plus-minus" OR PlayeRank OR "pass probability" OR "expected pass*" OR "shot quality")
+  AND (event OR tracking OR aggregated OR "player tracking" OR "optical tracking" OR GPS)
+  AND NOT ("American football" OR rugby OR futsal OR "Australian Football" OR Gaelic)
+  AND NOT (women* OR female* OR girls* OR youth* OR academy OR amateur OR college OR "high school")
+)
+AND PUBYEAR > 2017 AND PUBYEAR < 2025
+AND (LIMIT-TO(LANGUAGE, "English"))
+
+# Single-line variant (copy/paste friendly):
+# TITLE-ABS-KEY(("football" OR "soccer" OR "association football") AND ("play*" OR "perform*" OR "evaluat*" OR "analys*" OR "metric*" OR "measure*" OR "assessment" OR "shoot*" OR "pass*" OR "defend*" OR "dribbl*" OR "goalkeep*" OR "goal*" OR "player") AND ("expected goals" OR xg OR "expected assists" OR xa OR "expected threat" OR xt OR vaep OR "possession value" OR epv OR "pitch control" OR "space control" OR "pitch value" OR "plus-minus" OR PlayeRank OR "pass probability" OR "expected pass*" OR "shot quality") AND (event OR tracking OR aggregated OR "player tracking" OR "optical tracking" OR GPS) AND NOT ("American football" OR rugby OR futsal OR "Australian Football" OR Gaelic) AND NOT (women* OR female* OR girls* OR youth* OR academy OR amateur OR college OR "high school")) AND PUBYEAR > 2017 AND PUBYEAR < 2025 AND (LIMIT-TO(LANGUAGE, "English"))
+
+
+==============================
+ScienceDirect (Elsevier)
+==============================
+# Paste in the main search box (All fields). Then apply filters manually:
+# Years 2018–2024; Article type = Research articles; Language = English.
+(soccer OR football)
+AND (performance OR analysis OR metric OR evaluation OR measure OR assessment OR data)
+AND ("expected goals" OR xg OR "expected assists" OR xa OR "expected threat" OR xt OR vaep
+     OR "possession value" OR epv OR "pitch control" OR "space control" OR "pitch value"
+     OR "plus-minus" OR PlayeRank OR "pass probability" OR "expected pass*" OR "shot quality")
+AND (event OR tracking OR aggregated OR "player tracking" OR "optical tracking" OR GPS)
+AND NOT ("American football" OR rugby OR futsal OR "Australian Football" OR Gaelic)
+AND NOT (women* OR female* OR girls* OR youth* OR academy OR amateur OR college OR "high school")
+
+
+==============================
+SAGE Journals
+==============================
+# Paste in the main search (All fields). Then apply filters manually:
+# Years 2018–2024; Article type = Research Article; Language = English.
+(soccer OR "association football" OR football)
+AND (perform* OR evaluat* OR analys* OR metric* OR measure* OR assessment OR shoot* OR pass* OR defend* OR dribbl* OR goalkeep* OR goal* OR player)
+AND ("expected goals" OR xg OR "expected assists" OR xa OR "expected threat" OR xt OR vaep OR "possession value" OR epv OR "pitch control" OR "space control" OR "pitch value" OR "plus-minus" OR PlayeRank OR "pass probability" OR "expected pass*" OR "shot quality")
+AND (event OR tracking OR aggregated OR "player tracking" OR "optical tracking" OR GPS)
+AND NOT ("American football" OR rugby OR futsal OR "Australian Football" OR Gaelic)
+AND NOT (women* OR female* OR girls* OR youth* OR academy OR amateur OR college OR "high school")
