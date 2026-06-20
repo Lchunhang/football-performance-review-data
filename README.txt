@@ -1,5 +1,5 @@
 # Data and scripts for  
-“A Systematic Review of Modern Football Performance Measures (2018 – 2024)”
+“Data-Driven Football Performance Measurement: A Measure-First Systematic Review of Action-Centric, Individual, Team, and Financial Analytics (2018–2024)”
 
 This repository contains the research data and companion materials that support the findings of the review paper:
 
